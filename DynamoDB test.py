@@ -1,5 +1,6 @@
-import boto3
+# https://boto3.amazonaws.com/v1/documentation/api/latest/guide/dynamodb.html
 
+import boto3
 
 # Get the service resource.
 dynamodb = boto3.resource('dynamodb')
